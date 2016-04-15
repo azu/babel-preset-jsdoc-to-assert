@@ -27,13 +27,9 @@ via Babel CLI
 $ babel --presets jsdoc-to-assert /path/to/src/target.js > /path/to/build/target.js
 ```
 
-## Usage
-
-- [ ] Write usage instructions
-
 ## Tests
 
-- [ ] Write How to Tests
+    npm test
 
 ## Contributing
 
