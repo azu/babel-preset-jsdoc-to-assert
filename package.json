@@ -1,0 +1,41 @@
+{
+  "name": "babel-preset-jsdoc-to-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/babel-preset-jsdoc-to-assert.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/babel-preset-jsdoc-to-assert",
+  "license": "MIT",
+  "files": [
+    "lib/"
+  ],
+  "bugs": {
+    "url": "https://github.com/azu/babel-preset-jsdoc-to-assert/issues"
+  },
+  "version": "1.0.0",
+  "description": "babel preset for jsdoc-to-assert",
+  "main": "lib/babel-preset-jsdoc-to-assert.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "jsdoc",
+    "assert",
+    "test"
+  ],
+  "dependencies": {
+    "babel-plugin-auto-import-assert": "^1.0.2",
+    "babel-plugin-jsdoc-to-assert": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "mocha": "^2.4.5"
+  }
+}
