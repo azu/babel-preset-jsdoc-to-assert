@@ -4,7 +4,6 @@ Babel preset for [jsdoc-to-assert](https://github.com/azu/jsdoc-to-assert "jsdoc
 
 It contain these plugins.
 
-- [babel-plugin-auto-import-assert](https://github.com/azu/babel-plugin-auto-import-assert "babel-plugin-auto-import-assert")
 - [babel-plugin-jsdoc-to-assert](https://github.com/azu/babel-plugin-jsdoc-to-assert "babel-plugin-jsdoc-to-assert")
 
 ## Installation
