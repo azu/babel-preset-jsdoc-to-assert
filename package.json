@@ -31,7 +31,7 @@
     "test"
   ],
   "dependencies": {
-    "babel-plugin-jsdoc-to-assert": "^1.7.1"
+    "babel-plugin-jsdoc-to-assert": "^1.9.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
