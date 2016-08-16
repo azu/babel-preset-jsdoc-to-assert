@@ -31,10 +31,10 @@
     "test"
   ],
   "dependencies": {
-    "babel-plugin-jsdoc-to-assert": "^1.9.0"
+    "babel-plugin-jsdoc-to-assert": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.7.6",
-    "mocha": "^2.4.5"
+    "mocha": "^3.0.2"
   }
 }
