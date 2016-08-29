@@ -5,12 +5,10 @@
  */
 function myFunc(param, b, c) {
   if (!(typeof param === "number")) {
-    console.error('TypeError: babel-plugin-jsdoc-to-assert\nExpected type: @param {number} param\nActual value:', param);
-    console.assert(typeof param === "number", 'Invalid JSDoc: typeof param === "number"');
+    console.assert(typeof param === "number", 'Expected type: @param {number} param\nActual value:', param, '\nFailure assertion: typeof param === "number"');
   }
 
   if (!(typeof b === "string")) {
-    console.error('TypeError: babel-plugin-jsdoc-to-assert\nExpected type: @param {string} b\nActual value:', b);
-    console.assert(typeof b === "string", 'Invalid JSDoc: typeof b === "string"');
+    console.assert(typeof b === "string", 'Expected type: @param {string} b\nActual value:', b, '\nFailure assertion: typeof b === "string"');
   }
 }
