@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/azu/babel-preset-jsdoc-to-assert/issues"
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "babel preset for jsdoc-to-assert",
   "main": "lib/babel-preset-jsdoc-to-assert.js",
   "directories": {
