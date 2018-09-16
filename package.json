@@ -21,7 +21,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "updateSnapshot": "UPDATE_SNAPSHOT=1 mocha"
   },
   "keywords": [
     "babel",
@@ -31,10 +32,12 @@
     "test"
   ],
   "dependencies": {
-    "babel-plugin-jsdoc-to-assert": "^3.0.1"
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "babel-plugin-jsdoc-to-assert": "^4.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.7.6",
-    "mocha": "^3.0.2"
+    "@babel/core": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "mocha": "^5.2.0"
   }
 }
